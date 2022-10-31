@@ -324,7 +324,13 @@ width: 500;
 margin-left: 800px;
 margin-top: 30px;
 }
-
+@media  (max-width: 1025px) {
+    .exp img{
+    
+        margin-left: 80px;
+      
+     }
+       }
 
 
 .iconos{
