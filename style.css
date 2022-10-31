@@ -268,6 +268,13 @@ margin-bottom: 10;
     margin-right: 40px;
     width: 350px;
 }
+@media (max-width: 1025px) {
+    .skills li{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+   }
 
 .titulo{
     display: flex;
