@@ -239,7 +239,7 @@ margin-left: 35%;
 margin-bottom: 10;
 
 }
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .skills img{
         margin-top: 30px;
        
@@ -252,7 +252,7 @@ margin-bottom: 10;
    margin-bottom: 50px;
    
 }
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .skills{
         display: grid;
         justify-content: center;
@@ -274,7 +274,7 @@ margin-bottom: 10;
     margin-bottom: 50px;
     
  }
- @media (max-width: 767px) {
+ @media (max-width: 1025px) {
 .titulo{
     font-size: 20px;
     padding: 50px;
@@ -298,7 +298,7 @@ margin-bottom: 10;
    
  }
 
- @media  (max-width: 767px) {
+ @media  (max-width: 1025px) {
     .contExp{
         font-size: 20px;
         padding: 50px;
@@ -321,7 +321,7 @@ margin-bottom: 10;
 width: 100%;
 
 }
-@media  (max-width: 767px) {
+@media  (max-width: 1025px) {
     .exp li{
         margin-left: 40px;
         margin-right: 40px;
