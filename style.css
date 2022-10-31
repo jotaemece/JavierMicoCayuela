@@ -275,12 +275,7 @@ margin-bottom: 10;
     margin-bottom: 50px;
     
  }
- @media (max-width: 1025px) {
-.titulo{
-    font-size: 20px;
-    padding: 50px;
- }
-   }
+
 
  .Tit h2{
     justify-content: center;
