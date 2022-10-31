@@ -229,6 +229,13 @@ font-size: 18px;
     display: flex;
     margin: 30px;
 }
+
+@media handheld, only screen and (max-width: 767px) {
+    .skills img{
+        margin-top: 30px;
+        
+     }
+   }
 .skills img{
 max-width: 100px;
 
@@ -236,6 +243,15 @@ margin-left: 35%;
 margin-bottom: 10;
 
 }
+
+@media handheld, only screen and (max-width: 767px) {
+    .skills{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+     }
+   }
+
 .skills{
    display: flex;
    justify-content: center;
@@ -305,6 +321,11 @@ margin-top: 30px;
     font-size: 15;
     margin-bottom: 50px;
  }
+ @media handheld, only screen and (max-width: 767px) {
+ .blender p{
+ display: none;
+}
+}
 
  .iconos img{
      max-width: 100px;
@@ -315,6 +336,7 @@ margin-top: 30px;
     display: flex;
     margin: 30px;
 }
+
 /*////////////////////////////////////////////////PF//////////////////////////////////// */
 
 .zonaImg{
