@@ -275,7 +275,12 @@ margin-bottom: 10;
     margin-bottom: 50px;
     
  }
-
+ @media  (max-width: 1025px) {
+    .Tit li{
+        font-size: 20px;
+        padding: 40px;
+     }
+       }
 
  .Tit h2{
     justify-content: center;
@@ -301,6 +306,7 @@ margin-bottom: 10;
         margin-right: 40px;
         width: 350px;
     }
+    
  .exp h2{
     justify-content: center;
     display: flex;
@@ -310,6 +316,7 @@ margin-bottom: 10;
 .exp li{
 
 width: 100%;
+display: flex;
 
 }
 @media  (max-width: 1025px) {
