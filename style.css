@@ -230,12 +230,8 @@ font-size: 18px;
     margin: 30px;
 }
 
-@media handheld, only screen and (max-width: 767px) {
-    .skills img{
-        margin-top: 30px;
-        
-     }
-   }
+
+   
 .skills img{
 max-width: 100px;
 
@@ -243,12 +239,10 @@ margin-left: 35%;
 margin-bottom: 10;
 
 }
-
 @media handheld, only screen and (max-width: 767px) {
-    .skills{
-        display: grid;
-        justify-content: center;
-        margin-bottom: 50px;
+    .skills img{
+        margin-top: 30px;
+       
      }
    }
 
@@ -258,6 +252,15 @@ margin-bottom: 10;
    margin-bottom: 50px;
    
 }
+@media handheld, only screen and (max-width: 767px) {
+    .skills{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+       
+     }
+   }
+
 
 .skills li{
     margin-left: 40px;
@@ -271,6 +274,13 @@ margin-bottom: 10;
     margin-bottom: 50px;
     
  }
+ @media handheld, only screen and (max-width: 767px) {
+.titulo{
+    font-size: 20px;
+    padding: 50px;
+ }
+   }
+
  .Tit h2{
     justify-content: center;
     display: flex;
@@ -287,6 +297,19 @@ margin-bottom: 10;
     justify-content: center;
    
  }
+
+ @media handheld, only screen and (max-width: 767px) {
+    .contExp{
+        font-size: 20px;
+        padding: 50px;
+     }
+       }
+
+.contExp li{
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 350px;
+    }
  .exp h2{
     justify-content: center;
     display: flex;
@@ -298,6 +321,13 @@ margin-bottom: 10;
 width: 100%;
 
 }
+@media handheld, only screen and (max-width: 767px) {
+    .exp li{
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 350px;
+     }
+       }
 
 .exp img{
 width: 500;
