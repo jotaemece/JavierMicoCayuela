@@ -298,7 +298,7 @@ margin-bottom: 10;
    
  }
 
- @media handheld, only screen and (max-width: 767px) {
+ @media  (max-width: 767px) {
     .contExp{
         font-size: 20px;
         padding: 50px;
@@ -321,7 +321,7 @@ margin-bottom: 10;
 width: 100%;
 
 }
-@media handheld, only screen and (max-width: 767px) {
+@media  (max-width: 767px) {
     .exp li{
         margin-left: 40px;
         margin-right: 40px;
