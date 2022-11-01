@@ -421,8 +421,9 @@ margin-bottom: 60px;
     text-align: -webkit-center;
 }
 .render img{
-    width: 1080px;
+    width: 90%;
 }
+
 .render iframe {
 
     display: block;
