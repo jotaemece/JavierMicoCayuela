@@ -241,7 +241,7 @@ margin-bottom: 10;
 }
 @media (max-width: 1025px) {
     .skills img{
-        margin-top: 30px;
+        margin-bottom: 30px;
        
      }
    }
