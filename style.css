@@ -259,6 +259,7 @@ margin-bottom: 10;
         margin-bottom: 50px;
         font-size: 20px;
         padding: 50px;
+        width: 100%;
      }
    }
 
@@ -330,7 +331,7 @@ display: flex;
     .exp li{
         font-size: 20px;
         padding: 40px;
-        display: block;
+        display: block !important;
      }
        }
        @media  (max-width: 1025px) {
