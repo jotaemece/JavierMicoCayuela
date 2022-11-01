@@ -309,7 +309,10 @@ margin-bottom: 10;
 
 
 
-
+.contExp li{
+     
+        display:  flex;
+    }
     
  .exp h2{
     justify-content: center;
@@ -317,12 +320,7 @@ margin-bottom: 10;
     margin: 30px;
     
  }
-.exp li{
 
-width: 100%;
-display: flex;
-
-}
 @media  (max-width: 1025px) {
     .exp li{
         margin-right: 40px;
