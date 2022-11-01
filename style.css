@@ -324,9 +324,9 @@ margin-bottom: 10;
 @media  (max-width: 1025px) {
     .exp li{
    
-       padding-right: 0px;
-       padding-left: 0px;
-        padding: 40px;
+       padding-top: 40px;
+       padding-bottom: 40px;
+  
         display: block !important;
      }
        }
