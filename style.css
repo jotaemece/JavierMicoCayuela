@@ -277,9 +277,9 @@ margin-bottom: 10;
 }
 @media (max-width: 1025px) {
     .skills li{
-        margin-left: null;
+        margin-left: 0px;
         margin-right: 0px;
-      
+        white-space: nowrap;
     }
    }
 
