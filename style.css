@@ -329,16 +329,12 @@ display: flex;
 }
 @media  (max-width: 1025px) {
     .exp li{
-        font-size: 20px;
+       
         padding: 40px;
         display: block !important;
      }
        }
-       @media  (max-width: 1025px) {
-        .exp p{
-            font-size: 20px;
-         }
-           }
+     
     
 .exp img{
 width: 500;
