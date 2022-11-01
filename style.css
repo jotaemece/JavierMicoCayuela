@@ -329,7 +329,10 @@ display: flex;
 }
 @media  (max-width: 1025px) {
     .exp li{
-       
+        margin-right: 40px;
+        margin-left: 40px;
+       padding-right: 0px;
+       padding-left: 0px;
         padding: 40px;
         display: block !important;
      }
