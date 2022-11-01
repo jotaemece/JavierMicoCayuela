@@ -230,6 +230,12 @@ font-size: 18px;
     margin: 30px;
 }
 
+@media (max-width: 1025px) {
+.habilidadesCont h2{
+    margin-bottom: -50px;
+}
+}
+
 
    
 .skills img{
@@ -242,7 +248,7 @@ margin-bottom: 10;
 @media (max-width: 1025px) {
     .skills img{
         margin-bottom: 30px;
-       
+        margin-top: 100px;
      }
    }
 
@@ -259,7 +265,7 @@ margin-bottom: 10;
         margin-bottom: 50px;
         font-size: 20px;
         padding-bottom: 50px;
-        width: 100%;
+       
      }
    }
 
@@ -273,7 +279,7 @@ margin-bottom: 10;
     .skills li{
         margin-left: null;
         margin-right: 0px;
-        width: 100%;
+      
     }
    }
 
