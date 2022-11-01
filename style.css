@@ -272,7 +272,7 @@ margin-bottom: 10;
     .skills li{
         margin-left: 0px;
         margin-right: 0px;
-        
+        width: 100%;
     }
    }
 
@@ -333,7 +333,12 @@ display: flex;
         display: block;
      }
        }
-
+       @media  (max-width: 1025px) {
+        .exp p{
+            font-size: 20px;
+         }
+           }
+    
 .exp img{
 width: 500;
 margin-left: 800px;
