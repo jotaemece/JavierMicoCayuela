@@ -1,5 +1,5 @@
 var carpeta = 0;
-const numArchivosTresD = -16;
+const numArchivosTresD = 24;
 const numArchivosUnity = 12;
 
 function iniciar(){
@@ -18,7 +18,7 @@ function mostrarImagenes(value){
         zonaImg.removeChild(zonaImg.lastChild);
     }
     if(carpeta == 1){
-        for(i = -1; i>=numArchivosTresD; i--){
+        for(i = numArchivosTresD; i>=1; i--){
             let img = document.createElement("img");
             img.setAttribute("id", `${i}`);
             img.setAttribute("src", `./ima/minis/1/${i}.png`);
